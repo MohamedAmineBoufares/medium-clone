@@ -1,4 +1,4 @@
-import { Props } from "../../interfaces";
+import { Props } from "../../utils/interfaces";
 import PostCard from "./PostCard";
 
 function Posts({ posts }: Props) {
