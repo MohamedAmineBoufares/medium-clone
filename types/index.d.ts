@@ -10,7 +10,7 @@ export interface Post {
 
   description: string;
 
-  mianImage: {
+  mainImage: {
     asset: {
       url: string;
     };

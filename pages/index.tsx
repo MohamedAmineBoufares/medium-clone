@@ -4,7 +4,7 @@ import Header from "../components/Header/Header";
 import Posts from "../components/Posts/Posts";
 import { Props } from "../interfaces";
 import { getPostsQuery } from "../queries";
-import { sanityClient, urlFor } from "../sanity";
+import { sanityClient } from "../sanity";
 
 export default function Home({ posts }: Props) {
   return (
@@ -17,7 +17,7 @@ export default function Home({ posts }: Props) {
 
       <Banner />
 
-      <Posts />
+      <Posts posts={posts} />
     </div>
   );
 }
