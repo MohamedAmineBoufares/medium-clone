@@ -8,6 +8,8 @@ function Header() {
           <img
             className="w-44 object-contain cursor-pointer"
             src="https://links.papareact.com/yvf"
+            alt="Medium logo"
+            title="Medium logo"
           />
         </Link>
 
