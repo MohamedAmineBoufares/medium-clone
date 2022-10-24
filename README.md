@@ -26,13 +26,19 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### Sanity-CMS Server:
 
-First, install the dependencies:
+First, enter the Sanity directory:
+
+```bash
+cd sanity-medium
+```
+
+Then, install the dependencies:
 
 ```bash
 yarn install
 ```
 
-Then, run the development server:
+Finally, run the development server:
 
 ```bash
 yarn start
