@@ -7,3 +7,10 @@ export interface Props {
 export interface PostProps {
   post: Post;
 }
+
+export interface FormInputs {
+  _id: string;
+  name: string;
+  email: string;
+  comment: string;
+}
