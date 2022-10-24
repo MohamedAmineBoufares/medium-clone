@@ -8,6 +8,8 @@ A small [Medium](<[Medium](https://medium.com/)>) clone that I'm building with t
 
 ## Getting Started
 
+### NextJS Server:
+
 First, install the dependencies:
 
 ```bash
@@ -21,6 +23,22 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Sanity-CMS Server:
+
+First, install the dependencies:
+
+```bash
+yarn install
+```
+
+Then, run the development server:
+
+```bash
+yarn start
+```
+
+Open [http://localhost:3333](http://localhost:3333) with your browser to see the result.
 
 ## Versions
 
