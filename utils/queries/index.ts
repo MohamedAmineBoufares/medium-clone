@@ -27,7 +27,7 @@ export const getPostInfosQuery: string = `*[_type == "post" && slug.current == $
   
   "comments": * [
     _type == "comment" &&
-    post.ref == ^._id &&
+    post._ref == ^._id &&
     approved == true ],
   
    description,

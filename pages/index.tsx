@@ -5,6 +5,7 @@ import Posts from "../components/Posts/Posts";
 import { Props } from "../utils/interfaces";
 import { getPostsQuery } from "../utils/queries";
 import { sanityClient } from "../sanity";
+import Comments from "../components/Comments/Comments";
 
 export default function Home({ posts }: Props) {
   return (

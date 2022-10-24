@@ -19,7 +19,7 @@ export default {
     },
     {
       name: "comment",
-      type: "string",
+      type: "text",
     },
     {
       name: "post",

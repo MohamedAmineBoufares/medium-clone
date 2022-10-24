@@ -8,6 +8,7 @@ import { Post } from "../../utils/types";
 
 import PostBody from "../../components/PostBody/PostBody";
 import PostForm from "../../components/PostForm/PostForm";
+import Comments from "../../components/Comments/Comments";
 
 function Post({ post }: PostProps) {
   return (
@@ -17,6 +18,8 @@ function Post({ post }: PostProps) {
       <PostBody post={post} />
 
       <PostForm post={post} />
+
+      <Comments post={post} />
     </main>
   );
 }
