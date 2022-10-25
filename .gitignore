@@ -4,6 +4,7 @@ node_modules
 .pnp.js
 
 sanity-medium/node_modules
+sanity-medium/dist
 
 # testing
 coverage
